@@ -3,9 +3,10 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 #properties of the load
-M = 10  #mass
 l = 10  #Length
 b = 2/2 #Height
+d = 5   #density
+M = d*l*2*b  #mass
 
 #acceleration gravity
 g = 9.8
